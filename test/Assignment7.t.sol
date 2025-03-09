@@ -8,7 +8,7 @@ contract Assignment7Test is Test {
     Assignment7 assignment;
 
     function setUp() public {
-        assignment = new Assignment7();
+        assignment = new Assignment7("Blokkat", "BLK");
     }
 
     function testMintAndTransfer() public {
